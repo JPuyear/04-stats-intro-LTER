@@ -1,5 +1,6 @@
 ---
 title: 'Lab 4: LTER Network Data'
+output-dir: docs
 format:
    html:
     code-fold: true
@@ -67,7 +68,7 @@ library(visdat)
 Then run the following line of code to retrieve the `and_vertebrates` data set and bring it into your R session:
 
 ```{r}
-?and_vertebrates
+#?and_vertebrates
 ```
 
 ## Explore the dataset
@@ -81,7 +82,7 @@ glimpse(and_vertebrates)
 vis_dat(and_vertebrates)
 
 # Explore the metadata in the Help pane
-?and_vertebrates
+#?and_vertebrates
 ```
 
 This data set contains length and weight observations for three aquatic species in clear cut and old growth coniferous forest sections of Mack Creek in HJ Andrews Experimental Forest in Oregon. The three species are **Cutthroat trout**, **Coastal giant salamander** and **Cascade torrent salamander**.
@@ -405,7 +406,7 @@ t.test(sally_clean$weight_g ~ sally_clean$section, var.equal = FALSE)
 **3.** Test the correlation between body length (snout to fork length) and body mass for *Cutthroat trout*. (Hint: run `?and_vertebrates` to find which length variable represents snout to fork length) (10 pts.)
 
 ```{r, echo = TRUE}
-?and_vertebrates
+#?and_vertebrates
 
 #we know that trout weight is not normally distributed, so logging both fields
 ggarrange (
@@ -459,7 +460,7 @@ vis_dat(pie_crab)
 Learn more about each variable:
 
 ```{r}
-?pie_crab
+#?pie_crab
 ```
 
 This data set provides a great opportunity to explore Bergmann's rule: where organisms at higher latitudes are larger than those at lower latitudes. There are various hypotheses on what drives this phenomenon, which you can read more about in [Johnson et al. 2019](https://onlinelibrary.wiley.com/doi/10.1002/ece3.5883).
