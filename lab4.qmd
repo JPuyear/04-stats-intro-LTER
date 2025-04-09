@@ -672,7 +672,7 @@ In your assignment, you will perform a multiple linear regression using variable
 
 1.  **After** completing the ANOVA test (and post-hoc Tukey's HSD) above to test for significant differences in crab size among 3 different sites: **1)** Create a boxplot showing the carapace width for each site where sites are *ordered by latitude* and **2)** report the findings of the statistical test as you would in a scientific paper. *Include both the code to create the boxplot and an image of the figure.* (10 pts.)
 
-####1. Boxplot, ordered by latitude
+#### 1. Boxplot, ordered by latitude
 ```{r, echo = TRUE}
 #we already found that carapace width does differ among three of the sites
 
@@ -700,7 +700,7 @@ ggsave(
 
 ```
 
-####1. Reporting scientific findings
+#### 1. Reporting scientific findings
 ```{r, echo = TRUE}
 TukeyHSD(pie_anova)
 ```
