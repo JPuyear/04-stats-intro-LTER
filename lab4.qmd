@@ -320,7 +320,7 @@ cor.test(sally_clean$length_2_mm, sally_clean$weight_g, method = "spearman")
 
 These results also represent a significant, positive relationship between length and weight for the Coastal Giant salamander, with a very high correlation coefficient.
 
-## Exercises: Part 1
+# Exercises: Part 1
 
 Each question requires you to carry out a statistical analysis to test some hypothesis related to the `and_vertebrates` data set. To answer each question fully:
 
@@ -342,7 +342,7 @@ chisq.test(cont_table2)
 
 ```
 
-####Answer 1: There is a significant relationship between forest type and channel unit (p \< 2.2e-16).
+#### Answer 1: There is a significant relationship between forest type and channel unit (p \< 2.2e-16).
 
 <br>
 
@@ -668,7 +668,7 @@ It is usually good practice to remove variables from a multiple linear regressio
 
 In your assignment, you will perform a multiple linear regression using variables that are less correlated.
 
-## Exercises: Part 2
+# Exercises: Part 2
 
 1.  **After** completing the ANOVA test (and post-hoc Tukey's HSD) above to test for significant differences in crab size among 3 different sites: **1)** Create a boxplot showing the carapace width for each site where sites are *ordered by latitude* and **2)** report the findings of the statistical test as you would in a scientific paper. *Include both the code to create the boxplot and an image of the figure.* (10 pts.)
 
